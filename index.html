@@ -3,35 +3,34 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=1920" />
-  <link rel="stylesheet" href="style.css">
   <title>판다마켓</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-
+  <!-- 네비게이션 -->
   <nav>
     <div class="nav-left">
-      <img src="C:/Users/user/OneDrive/Desktop/sp mission1 main/logo.png" alt="로고">
+      <img src="logo.png">
       <a href="/" class="nav-title">판다마켓</a>
     </div>
     <button class="nav-btn">로그인</button>
   </nav>
 
-
+  <!-- Hero Section -->
   <section class="hero">
     <div class="hero-text">
       <h1>일상의 모든 물건을<br>거래해 보세요</h1>
       <a href="/items" class="btn">구경하러 가기</a>
     </div>
     <div class="hero-image">
-      <img src="C:/Users/user/OneDrive/Desktop/sp mission1 main/img1.png" alt="판다 캐릭터">
+      <img src="img1.png">
     </div>
   </section>
 
- 
+  <!-- 섹션 2 -->
   <section class="section">
     <div class="img-box">
-      <img src="C:/Users/user/OneDrive/Desktop/sp mission1 main/img3.png" alt="인기상품">
+      <img src="img3.png">
     </div>
     <div class="text-box">
       <h2>인기 상품을 확인해 보세요</h2>
@@ -39,10 +38,10 @@
     </div>
   </section>
 
-
+  <!-- 섹션 3 -->
   <section class="section reverse">
     <div class="img-box">
-      <img src="C:/Users/user/OneDrive/Desktop/sp mission1 main/img4.png" alt="검색 이미지">
+      <img src="img4.png">
     </div>
     <div class="text-box">
       <h2>구매를 원하는 상품을 검색하세요</h2>
@@ -50,10 +49,10 @@
     </div>
   </section>
 
-
+  <!-- 섹션 4 -->
   <section class="section">
     <div class="img-box">
-      <img src="C:/Users/user/OneDrive/Desktop/sp mission1 main/img5.png" alt="상품 등록">
+      <img src="img5.png">
     </div>
     <div class="text-box">
       <h2>판매를 원하는 상품을 등록하세요</h2>
@@ -67,12 +66,23 @@
       <h2>믿을 수 있는<br>판다마켓 중고 거래</h2>
     </div>
     <div class="final-image">
-      <img src="C:/Users/user/OneDrive/Desktop/sp mission1 main/img2.png" >
+      <img src="img2.png">
     </div>
   </section>
 
-  <!-- 마지막 여백 영역 -->
   <div class="bottom-space"></div>
 
+  <!-- 클릭 이동 기능 -->
+  <script>
+    document.querySelector('.nav-title').addEventListener('click', () => {
+      window.location.href = '/';
+    });
+    document.querySelector('.btn').addEventListener('click', () => {
+      window.location.href = '/items';
+    });
+    document.querySelector('.nav-btn').addEventListener('click', () => {
+      window.location.href = '/login';
+    });
+  </script>
 </body>
 </html>
