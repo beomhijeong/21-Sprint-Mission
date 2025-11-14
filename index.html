@@ -7,27 +7,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- 네비게이션 -->
   <nav>
     <div class="nav-left">
       <img src="logo.png">
-      <a href="/" class="nav-title">판다마켓</a>
+      <a class="nav-title" href="/">판다마켓</a>
     </div>
-    <button class="nav-btn">로그인</button>
+    <a class="nav-btn" href="/login">로그인</a>
   </nav>
 
-  <!-- Hero Section -->
   <section class="hero">
     <div class="hero-text">
       <h1>일상의 모든 물건을<br>거래해 보세요</h1>
-      <a href="/items" class="btn">구경하러 가기</a>
+      <a class="btn" href="/items">구경하러 가기</a>
     </div>
     <div class="hero-image">
       <img src="img1.png">
     </div>
   </section>
 
-  <!-- 섹션 2 -->
   <section class="section">
     <div class="img-box">
       <img src="img3.png">
@@ -38,7 +35,6 @@
     </div>
   </section>
 
-  <!-- 섹션 3 -->
   <section class="section reverse">
     <div class="img-box">
       <img src="img4.png">
@@ -49,7 +45,6 @@
     </div>
   </section>
 
-  <!-- 섹션 4 -->
   <section class="section">
     <div class="img-box">
       <img src="img5.png">
@@ -60,7 +55,6 @@
     </div>
   </section>
 
-  <!-- 마지막 섹션 -->
   <section class="final">
     <div class="final-text">
       <h2>믿을 수 있는<br>판다마켓 중고 거래</h2>
@@ -71,18 +65,5 @@
   </section>
 
   <div class="bottom-space"></div>
-
-  <!-- 클릭 이동 기능 -->
-  <script>
-    document.querySelector('.nav-title').addEventListener('click', () => {
-      window.location.href = '/';
-    });
-    document.querySelector('.btn').addEventListener('click', () => {
-      window.location.href = '/items';
-    });
-    document.querySelector('.nav-btn').addEventListener('click', () => {
-      window.location.href = '/login';
-    });
-  </script>
 </body>
 </html>
