@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.auth-body {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.auth-container {
+  width: 480px;
+  text-align: center;
+}
+
+.auth-logo {
+  width: 96px;
+  height: 96px;
+}
+
+.auth-title {
+  margin-top: 16px;
+  font-size: 40px;
+  font-weight: 900;
+  color: #3B82F6;
+  margin-bottom: 40px;
+}
+
+.auth-form {
+  text-align: left;
+  width: 100%;
+}
+
+.auth-form label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1F2937;
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 18px;
+}
+
+.auth-form input {
+  width: 100%;
+  height: 52px;
+  background: #F1F5F9;
+  border: none;
+  border-radius: 16px;
+  padding: 0 18px;
+  font-size: 15px;
+}
+
+.auth-btn {
+  margin-top: 32px;
+  width: 100%;
+  height: 56px;
+  background: #3B82F6;
+  color: #ffffff;
+  display: block;
+  border-radius: 999px;
+  text-align: center;
+  line-height: 56px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.auth-btn:hover {
+  background: #2563EB;
+}
+
+.auth-bottom-text {
+  margin-top: 28px;
+  font-size: 14px;
+  color: #6B7280;
+  text-align: center;
+}
+
+.auth-bottom-text a {
+  color: #3B82F6;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.auth-bottom-text a:hover {
+  text-decoration: underline;
+}
